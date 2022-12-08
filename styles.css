@@ -12,6 +12,10 @@ h1 {
 h2 {
     font-weight: bold;
 }
+
+figcaption, .persona-title {
+    color: #67723c;
+}
 .btn {
     padding: 0;
     color:#7F8E45;
@@ -69,7 +73,7 @@ h2 {
   }
 
 li::marker {
-    color:#7F8E45;
+    color:#67723c;
 }
 
 .development-btn {
@@ -88,3 +92,6 @@ li::marker {
     padding: 5%;
 }
 
+.alert-secondary {
+    background-color: #d8dbcd;
+}
