@@ -6,7 +6,6 @@ body {
 
 h1 {
     color: #7F8E45;
-    font-size: 5rem;
 } 
 
 h2 {
@@ -28,8 +27,10 @@ figcaption, .persona-title {
 }
 
 .card-div {
-    height: 20rem;
+    /* height: 20rem; */
+    height: 50%;
     width:50%;
+    margin-bottom: 10%;
 }
 
 .card {
@@ -38,7 +39,7 @@ figcaption, .persona-title {
 }
 
 .row {
-    height: 15rem;
+    height: 50%;
 }
 
 .sketch {
