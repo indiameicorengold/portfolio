@@ -27,26 +27,130 @@
           </nav>
           <div class="container">
             <div class="p-5">
-                <h1 class="mb-3">Development</h1>
-                <p>Created an interactive online plant store using <strong>React</strong>.</p>
+                <h1 class="mb-3">Personas & Storyboarding</h1>
+                <p>Observed and interviewed real users interacting with an interface,
+                    created personas based on these users,
+                    and illustrated a storyboard for one of the personas. </p>
                  <hr class="m-5"/>
-                 <h2 id="intro">Motivation</h2>
-                 <p>Jumping into this project, I wanted to become more familiar with JavaScript functions I have never used
-                     before such as <code>filter()</code> and <code>sort()</code>.
-                 </p>
-                 <p>To become more familiar, my goal was to implement these functionalities for my plant store:</p>
-                 <ul>
-                    <li>At least 2 filtering categories</li>
-                    <li>At least 1 sorting feature</li>
-                    <li>Combinations of sorting/filtering working together</li>
-                    <li>Ways to add and remove items</li>
-                    <li>An aggregator Component showing the items and aggregated value (the total price)</li>
-                 </ul>
-                 <p>I was able to accomplish all of these goals, and then some!</p>
-                 <p>Going forward, my goal is to create a second website with the same functionalities but using an API so that
-                    is has a real-life use case.
-                 </p>
-                 <a href="https://sillyseal111.github.io/development-plants/" class="btn development-btn">Check out the final product here-></a>
+                 <h2 id="intro">Preparation</h2>
+                 <p>The interface I chose to create my personas and storyboard for was the self-checkout kiosk at Ten One Tea House:</p>
+                 <img id="kiosk-sketch" src="resources/kiosk sketch.jpg"/>
+                 <p>This Snackpass Self-Order Kiosk at Ten One Tea House allows customers a faster alternative to order their drinks or pastries without the help of an employee.
+                    Customers can navigate through the menu using the touch screen display. Once they are ready to pay, they can simply insert or tap their card on the provided 
+                    scanner located directly beneath the screen.</p>
+                <hr class="m-5"/>
+                <h2>Observations & Interviews</h2>
+                <p> 
+                    Overall, users seemed to interact very easily with the kiosk. They were able to quickly and without great
+                    difficulty navigate through the menu, find their desired item, and pay using a credit card. The only time that 
+                    users seemed to hesitate was in finding the credit card swiper, but it only took a second or two until they 
+                    realized that it was located directly below the screen. 
+                </p>    
+                <ol>
+                    <li> What made you choose to order from the kiosk as opposed to the counter? <br>
+                        > It's usually faster, more efficient, and I can track the cost more easily.
+                    </li>
+                    <li> What was your goal with the kiosk, and did you achieve it? <br>
+                        > All users said their goal was to order a drink for a good price, and they were easily able to do so. 
+                    </li>
+                    <li> How did the time you took to use the kiosk compare to your expectations for how long it would take? <br>
+                        > Users said it either took as much time as expecting or less.
+                    </li>
+                    <li> Were there any positive or negative surprises when using this kiosk? <br>
+                        > Users were mainly surprised that it was so easy. One user noted that the ability to earn 
+                        Snackpass points was a pleasant surprise. 
+                    </li>
+                    <li> Next time you order from Ten One, would you use this kiosk or the counter to order and why? <br>
+                        > Would probably use the kiosk again because it was easier, faster, and could track cost, but if there was a line to the kiosk <br>
+                        and no one line to the counter, they would go to the counter.
+                    </li>
+                </ol>
+                <hr class="m-5"/>
+                <h2>Personas</h2>
+                <p>I then created these personas based off of my observations:</p>
+                <div class="d-flex">
+                    <div class="card persona-card m-5">
+                        <img id="persona" class="card-img-top" src="resources/fast-fred.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Persona 1 : Fast Fred</h5>
+                          <p class="card-text">
+                            <ul> 
+                                <li> Fast Fred is a customer who wants to get their order and go, 
+                                    quickly and efficiently. </li>
+    
+                                <li>Fast Fred doesn't want to wait for a long time in line, and there is no line to the kiosk. </li>
+    
+                                <li>Fast Fred finds that he is able to easily find exactly what he'd like to order via the kiosk and check out
+                                using his credit card. </li>
+    
+                                <li>Fast Fred represents the majority of users since most people choose to use the kiosk as a faster alternative to
+                                ordering and checking out at the counter with the help of a cashier. </li>
+                            </ul>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="card persona-card m-5">
+                        <img id="persona" class="card-img-top" src="resources/bargain-brian.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Persona 2 : Bargain Brian</h5>
+                          <p class="card-text">
+                            <ul> 
+                                <li>Bargain Brian is a customer who would like to get his order for the best price. </li>
+    
+                                <li>Bargain Brian takes an especially long time at the kiosk because he wants to look through all of the menu 
+                                to make sure he finds the best option. </li>
+    
+                                <li>Bargain Brian represents users who choose the kiosk over the counter because they can take their time 
+                                browsing the menu and weighing their options.  </li>
+    
+                                <li>These users like that you can see how much your bill is before
+                                you check out and can easily choose to remove or add items.</li>
+                            </ul>
+                          </p>
+                        </div>
+                      </div>
+                    <!-- <div class="m-2">
+                        <h3> Persona 1 : Fast Fred </h3>
+                        <img class="persona" src="resources/fast-fred.png">
+
+                        <ul> 
+                            <li> Fast Fred is a customer who wants to get their order and go, 
+                                quickly and efficiently. </li>
+
+                            <li>Fast Fred doesn't want to wait for a long time in line, and there is no line to the kiosk. </li>
+
+                            <li>Fast Fred finds that he is able to easily find exactly what he'd like to order via the kiosk and check out
+                            using his credit card. </li>
+
+                            <li>Fast Fred represents the majority of users since most people choose to use the kiosk as a faster alternative to
+                            ordering and checking out at the counter with the help of a cashier. </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="m-2">
+                        <h3> Persona 2 : Bargain Brian </h3>
+                        <img class="persona" src="resources/bargain-brian.png">
+                        
+
+                        <ul> 
+                            <li>Bargain Brian is a customer who would like to get his order for the best price. </li>
+
+                            <li>Bargain Brian takes an especially long time at the kiosk because he wants to look through all of the menu 
+                            to make sure he finds the best option. </li>
+
+                            <li>Bargain Brian represents users who choose the kiosk over the counter because they can take their time 
+                            browsing the menu and weighing their options.  </li>
+
+                            <li>These users like that you can see how much your bill is before
+                            you check out and can easily choose to remove or add items.</li>
+                        </ul> 
+                    </div> -->
+                    
+                </div>
+                <hr class="m-5"/>
+                <h2>Storyboarding</h2>
+                <p>Finally, I created a storyboard for the persona Fast Fred:</p>
+                <img id="storyboard" src="resources/storyboard.png"/>
           </div>
           
           
