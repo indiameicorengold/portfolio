@@ -1,7 +1,14 @@
 body {
-    font-family:"Spectral", serif;
+    font-family: "Spectral", serif;
     margin-left: 25%;
     margin-right: 25%;
+}
+
+@media screen and (max-width: 1180px) {
+    body {
+        margin-left: 0%;
+        margin-right: 0%;
+    }   
 }
 
 h1 {
