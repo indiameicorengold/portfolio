@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portfolio</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
         <link rel="stylesheet" href="styles.css">
         <link href='https://fonts.googleapis.com/css?family=Spectral' rel='stylesheet'>
     </head>
@@ -15,12 +15,12 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ml-auto">
+              <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="home.html">Projects</a>
                   </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="about.html">About </a>
                 </li>
               </ul>
             </div>
@@ -35,16 +35,10 @@
                     <a class="nav-link" href="project1.html">Intro</a>
                   </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#sketching">Sketching & Wireframing<span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="#sketching">Sketching & Wireframing</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#first">First Iteration<span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#second">Second Iteration<span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#final">Final Iteration<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#first">Mockups</a>
                   </li>
               </ul>
             </div>
@@ -56,8 +50,8 @@
                     Emerge Career, with a small group of other students using sketches, 
                     <strong>Balsamiq</strong>, and <strong>Figma</strong>. 
                  </p>
-                 <hr class="m-5"/>
-                 <h2 id="intro">About Emerge Career</h2>
+                 <!-- <hr class="m-5"/> -->
+                 <h2 class="my-5" id="intro">About Emerge Career</h2>
                  <p>Emerge career seeks to bridge the gap between employment and individuals post-incarceration. 
                     Emerge does so by working with governments to provide online job training in industries that 
                     are labor-starved. Additionally, by providing this type of training, Emerge helps to reduce 
@@ -71,12 +65,12 @@
                     and another 9 million from local prisons.
 
                     <br/><br/>
-
+                    
                     We chose to design an interactive interface for Emerge Career because they are helping people 
                     right here in Providence and other parts of New England. 
                     </p>
-                <hr class="m-5"/>
-                <h2 id="sketching" class="mt-5 mb-5">Sketching & Wireframing</h2>
+                <!-- <hr class="m-5"/> -->
+                <h2 class="my-5" id="sketching" class="mt-5 mb-5">Sketching & Wireframing</h2>
                 <p>We explored design alternatives by creating a series of sketches with unique design choices. 
                     One set of our sketches can be see below.</p>
                 <div class="d-flex justify-content-center">
@@ -84,7 +78,7 @@
                     <img class="sketch" src="resources/iterative design-3.jpg" />
                     <img class="sketch" src="resources/iterative design-4.jpg" />
                     </div>
-                <ul>
+                <ul class="my-5">
                     Design choices:
                     <li>Landing page assumes user is returning user</li>
                     <li>Navbar is horizontally displayed at the top</li>
@@ -98,26 +92,96 @@
                     <img class="sketch mx-2" src="resources/New Wireframe 1 (2).png" />
                     <img class="sketch mx-2" src="resources/New Wireframe 1 (5).png" />
                     </div>
-                <hr class="m-5"/>
+                <!-- <hr class="m-5"/> -->
                 <h2 id="first" class="mt-5 mb-5">First Iteration & Critique</h2>
                 <p>Based on our wireframes, we created a high-fidelity mockup for peer critique using <strong>Figma</strong>:</p>
-                <iframe class="box-shadow--8dp mb-5" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="700" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Frvg9iOJ0EVgpMMCD2p5mEI%2Fcsci1300-first-iteration%3Fscaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D1%253A2%26node-id%3D1%253A2" allowfullscreen></iframe>
-                <hr class="m-5"/>
+                <div class="accordion" id="accordionFlushExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        First Iteration
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        <iframe class="box-shadow--8dp mb-5" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="700" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Frvg9iOJ0EVgpMMCD2p5mEI%2Fcsci1300-first-iteration%3Fscaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D1%253A2%26node-id%3D1%253A2" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <h2 id="second" class="mt-5 mb-5">Second Iteration & User Testing</h2>
                 <p>Then, we created a second iteration based on the feedback we got from peers:</p>
-                <iframe class="box-shadow--8dp mb-5" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="700" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FCRjf3oyBftSj5ReXbiy5Xc%2Fcsci1300-iterative-design-hifi-mockup-(1)%3Fscaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D1%253A2%26node-id%3D1%253A2" allowfullscreen></iframe>
-                <p>For our final iteration, we submitted our prototype to usertesting.com for further feedback.</p>
-                <hr class="m-5"/>
+                <div class="accordion" id="accordionFlushExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Second Iteration
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        <iframe class="box-shadow--8dp mb-5" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="700" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FCRjf3oyBftSj5ReXbiy5Xc%2Fcsci1300-iterative-design-hifi-mockup-(1)%3Fscaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D1%253A2%26node-id%3D1%253A2" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p class="mt-3">For our final iteration, we submitted our prototype to usertesting.com for further feedback.</p>
                 <h2 id="final" class="mt-5 mb-5">Final Iteration</h2>
-                <iframe class="box-shadow--8dp mb-5" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="700" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FyEdQHL4m7ZfSHM4Qat6E25%2Fcsci1300-iterative-design-hifi-mockup%3Fnode-id%3D1%253A2%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D1%253A2" allowfullscreen></iframe>
-                <p>We created our final iteration based on the feedback we received from usertesting.com, and sent a copy to the creators of Emerge Career. </p>
-
+                <div class="accordion" id="accordionFlushExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Final Iteration
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        <iframe class="box-shadow--8dp mb-5" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="700" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FyEdQHL4m7ZfSHM4Qat6E25%2Fcsci1300-iterative-design-hifi-mockup%3Fnode-id%3D1%253A2%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D1%253A2" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p class="mt-3">We created our final iteration based on the feedback we received from usertesting.com, and sent a copy to the creators of Emerge Career. </p>
+                <!-- <div class="accordion accordion-flush" id="accordionFlushExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        First Iteration
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        <iframe class="box-shadow--8dp mb-5" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="700" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Frvg9iOJ0EVgpMMCD2p5mEI%2Fcsci1300-first-iteration%3Fscaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D1%253A2%26node-id%3D1%253A2" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Accordion Item #2
+                      </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Accordion Item #3
+                      </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                    </div>
+                  </div>
+                </div> -->
             </div>
           </div>
           
-          
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>   -->
+        <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
     </body>
 </html>
