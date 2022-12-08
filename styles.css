@@ -4,35 +4,6 @@ body {
     margin-right: 25%;
 }
 
-@media screen and (max-width: 1300px) {
-    body {
-        margin-left: 0%;
-        margin-right: 0%;
-    }   
-
-    h1 {
-        font-size: x-large;
-    }
-
-    h2 {
-        font-size: large;
-    }
-}
-
-@media screen and (max-width: 700px) {
-    .hide {
-        display: none;
-    }
-    
-    h1 {
-        font-size: large;
-    }
-
-    h2 {
-        font-size: medium;
-    }
-}
-
 h1 {
     color: #7F8E45;
 } 
@@ -41,13 +12,63 @@ h2 {
     font-weight: bold;
 }
 
-figcaption, .persona-title {
-    color: #67723c;
-}
 .btn {
     padding: 0;
     color:#7F8E45;
     text-decoration: underline;
+}
+
+@media screen and (max-width: 1300px) {
+    body {
+        margin-left: 0%;
+        margin-right: 0%;
+    }   
+
+    h1 {
+        font-size: x-large;
+        color: #7F8E45;
+    }
+
+    h2 {
+        font-size: large;
+        font-weight: bold;
+    }
+
+    p,ul,li {
+        font-size: medium;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    /* .hide {
+        display: none;
+    } */
+    
+    h1 {
+        font-size: large;
+        color: #7F8E45;
+        
+    }
+
+    h2 {
+        font-size: small;
+        font-weight: bold;
+    }
+
+    p,ul,li {
+        font-size:xx-small
+    }
+
+    .btn {
+        padding: 0;
+        color:#7F8E45;
+        text-decoration: underline;
+        font-size:xx-small
+    }
+}
+
+figcaption, .persona-title {
+    color: #67723c;
 }
 
 .scroll {
