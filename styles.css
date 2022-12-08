@@ -54,4 +54,15 @@ h2 {
     border-right: 1px solid #939C72;
   }
 
+li::marker {
+    color:#7F8E45;
+}
+
+.development-btn {
+    font-size:large;
+    font-weight:bold;
+    text-decoration: underline;
+    color:#7F8E45;
+}
+
 
