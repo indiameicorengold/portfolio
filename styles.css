@@ -2,6 +2,14 @@ body {
     font-family:"Spectral", serif;
 }
 
+h1 {
+    color: #7F8E45;
+    font-size: 5rem;
+} 
+
+h2 {
+    font-weight: bold;
+}
 .btn {
     padding: 0;
 }
@@ -11,16 +19,39 @@ body {
     width:30px;
 }
 
-.scroll-div {
-    height: 10rem;
-}
-
-h1 {
-    color: olive;
-    font-size: 5rem;
+.card-div {
+    height: 20rem;
+    width:50%;
 }
 
 .card {
-    height: 40rem;
     border:none;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
 }
+
+.row {
+    height: 15rem;
+}
+
+.sketch {
+    width: 30%;
+    height: 30%;
+}
+
+.col-2 {
+    background-color: #939C72;
+}
+
+.white-bg {
+    background-color: white;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    padding: 0 0.8em;
+  }
+
+.navbar .navbar-nav .nav-item:not(:last-child) .nav-link {
+    border-right: 1px solid #939C72;
+  }
+
+
