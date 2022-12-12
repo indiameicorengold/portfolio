@@ -146,3 +146,22 @@ li::marker {
 .alert-secondary {
     background-color: #d8dbcd;
 }
+
+.lofi {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width : 100%;
+    height : 100%;
+    padding: 5%;
+}
+
+.lofi-button {
+    width: 100%;
+    height: 100%;
+}
+
+.og-site {
+    width:100%;
+    height:100%;
+}
