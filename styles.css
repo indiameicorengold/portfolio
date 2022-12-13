@@ -18,6 +18,20 @@ h2 {
     text-decoration: underline;
 }
 
+.navbar .navbar-nav .nav-item .nav-link {
+    padding: 0 0.8em;
+  }
+
+.navbar .navbar-nav .nav-item:not(:last-child) .nav-link {
+    border-right: 1px solid #939C72;
+  }
+
+@media screen and (max-width:990px) {
+    .navbar .navbar-nav .nav-item:not(:last-child) .nav-link {
+        border-right: 0px;
+      }
+}
+
 @media screen and (max-width: 1300px) {
     body {
         margin-left: 0%;
@@ -115,13 +129,6 @@ figcaption, .persona-title {
     background-color: white;
 }
 
-.navbar .navbar-nav .nav-item .nav-link {
-    padding: 0 0.8em;
-  }
-
-.navbar .navbar-nav .nav-item:not(:last-child) .nav-link {
-    border-right: 1px solid #939C72;
-  }
 
 li::marker {
     color:#67723c;
