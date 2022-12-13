@@ -4,7 +4,7 @@ body {
     margin-right: 22%;
 }
 
-h1 {
+h1, h4 {
     color: #7F8E45;
 } 
 
@@ -164,4 +164,14 @@ li::marker {
 .og-site {
     width:100%;
     height:100%;
+}
+
+#about-pic {
+    width: 10%;
+    height: 10%;
+}
+
+.project-pic {
+    width:100%;
+    height:40%;
 }
